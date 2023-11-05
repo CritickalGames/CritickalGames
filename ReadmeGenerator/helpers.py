@@ -83,7 +83,8 @@ def awesome_projects(data, context):
         if data["showScore"]:
             if "members" in project:
                 forks = project["members"]
-            stars = project["stargazers"]
+            if "stargazers" in project:
+                stars = project["stargazers"]
             score = f"🌿{forks} ⭐{stars}"
 
         projects_data += f'- [{project["name"]} {score} {emojis}]({url}) \n'
