@@ -38,10 +38,10 @@ jobs:
           cd ..'
 
       - name: Setup Node.js
-        uses: actions/setup-node@v2
-        with:
-          node-version: '20'  # Aquí puedes especificar la versión de Node.js que desees, por ejemplo, '16' para Node.js 16.x
-    
+        runs:
+          using: 'node20'
+          main: 'main.js'    
+          
       - name: Commit changes
         run: |
           git add -A
