@@ -84,7 +84,7 @@ def get_youtube_data(youtube_username):
                 continue
 
             videos = tab.get("sectionListRenderer", {}).get("content")
-            videos = videos["contents"][0]["itemSectionRenderer"]
+            videos = tab.get("sectionListRenderer", {}).get("content")
             videos = videos["contents"][0]["gridRenderer"]["items"]
 
             for video in videos:
