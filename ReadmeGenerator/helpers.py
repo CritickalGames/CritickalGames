@@ -81,10 +81,10 @@ def awesome_projects(data, context):
 
         score = ""
         if data["showScore"]:
-            if "members" in project:
-                forks = project["members"]
-            if "stargazers" in project:
-                stars = project["stargazers"]
+            forks = "Aún no encuentro el sustituto de 'members'"
+            stars = "Aún no encuentro el sustituto de 'stargazers'"
+            if "members" in project: forks = project["members"]
+            if "stargazers" in project: stars = project["stargazers"]
             score = f"🌿{forks} ⭐{stars}"
 
         projects_data += f'- [{project["name"]} {score} {emojis}]({url}) \n'
