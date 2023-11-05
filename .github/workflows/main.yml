@@ -38,8 +38,9 @@ jobs:
           cd ..'
 
       - name: Setup Node.js
+        runs:
+          using: 'node20'    
           
-
       - name: Commit changes
         run: |
           git add -A
