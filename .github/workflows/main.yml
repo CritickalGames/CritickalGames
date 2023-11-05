@@ -28,6 +28,10 @@ jobs:
         with:
           python-version: '3.11.x' # Version range or exact version of a Python version to use, using SemVer's version range syntax
           architecture: 'x64' # optional x64 or x86. Defaults to x64 if not specified
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '19'  # Aquí especifica la versión de Node.js que desees.
 
       # Runs a set of commands using the runners shell
       - name: Generate static files
