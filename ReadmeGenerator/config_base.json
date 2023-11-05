@@ -41,15 +41,9 @@
         "data": {
             "title": "Tech Stack ⌨",
             "tech": [
-                "Applied mathematics ⭐",
-                "Python and Flask, Django ⭐",
-                "Pytorch ⭐",
-                "Rust and WASM ⭐",
-                "SQL and No relational Databases",
-                "Linux, AWS and Docker",
-                "Unity3D ⭐",
-                "Arduino and electronics",
-                "ASM for Pics"
+                "Godot 4⭐",
+                "Python",
+                "Java"
             ]
         }
     },
