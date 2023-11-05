@@ -5,24 +5,14 @@
             "githubUser": "HectorPulido",
             "categories": [
                 {
-                    "name": "AI",
-                    "emoji": "🤖",
-                    "tag": "ai"
-                },
-                {
                     "name": "GameDev",
                     "emoji": "🎮",
                     "tag": "gamedev"
                 },
                 {
-                    "name": "Blockchain",
-                    "emoji": "🔑",
-                    "tag": "blockchain"
-                },
-                {
-                    "name": "Backend",
+                    "name": "Web",
                     "emoji": "💻",
-                    "tag": "backend"
+                    "tag": "web"
                 }
             ]
         }
@@ -69,7 +59,7 @@
             "title": "Awesome Projects 📚",
             "count": 9,
             "showEmojis": true,
-            "showScore": false,
+            "showScore": true,
             "ignore_pinned": true
         }
     },
