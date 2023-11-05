@@ -85,7 +85,16 @@ def get_youtube_data(youtube_username):
 
             videos = tab.get("sectionListRenderer", {}).get("content")
             videos = tab.get("sectionListRenderer", {}).get("content")
-            videos = videos["contents"][0]["gridRenderer"]["items"]
+            if videos is not None and "contents" in videos and videos["contents"]:
+                videos = videos["contents"][0]
+                if "gridRenderer" in videos and "items" in videos["gridRenderer"]:
+                    videos = videos["gridRenderer"]["items"]
+                else:
+                    # Manejar el caso en el que las claves "gridRenderer" o "items" no existen
+                    videos = None
+            else:
+                # Manejar el caso en el que `videos` no contiene la estructura esperada
+                videos = None  # o cualquier otro manejo adecuado
 
             for video in videos:
                 if "gridVideoRenderer" not in video:
