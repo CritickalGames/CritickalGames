@@ -158,10 +158,14 @@ def filter_projects(projects):
 def set_config(github_user, categories):
     projects = []
     projects_by_categories = {}
-    for category in categories:
-        project = get_projects(github_user, category["tag"])
-        projects_by_categories[category["tag"]] = project
-        projects += project
+    try:
+        for category in categories:
+            project = get_projects(github_user, category["tag"])
+            projects_by_categories[category["tag"]] = project
+            projects += project
+    except TypeError as e:
+        print("Supongo que se desbordó: ")
+        print(e)
 
     projects.sort(reverse=True, key=lambda x: x["score"])
     projects = filter_projects(projects)
@@ -188,4 +192,5 @@ types = {
     "extra": extra,
     "social": social,
     "youtube_video_list": youtube_video_list,
+    "config": set_config
 }
