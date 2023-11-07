@@ -3,7 +3,7 @@ import os
 from helpers import types, set_config
 
 FILEPATH = "../"
-PATH = "ReadmeGenerator/"
+PATH = ""
 FILENAME_BASE = f"{PATH}config_base.json"
 FILENAME_PROJECTS = f"{PATH}config_projects.json"
 
