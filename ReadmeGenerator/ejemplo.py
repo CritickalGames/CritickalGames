@@ -42,3 +42,5 @@ for category in categories:
     f = open(f"{FILEPATH}{category['tag']}.md", "w", errors="ignore")
     f.write(readme_file)
     f.close()
+    
+print(readme_file)
