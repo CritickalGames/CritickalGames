@@ -2,8 +2,6 @@ name: CI
 on:
   push:
     branches: 
-      - protected
-      - non_protected
       - 'push-action/**'
   schedule:    
     - cron: "5 0 * * 0"
