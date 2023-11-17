@@ -45,3 +45,4 @@ No uso muchas categorías, pero porque prefiero centrarme como mucho, en 6 areas
 
 ###### [* This is an autogenerate readme](https://github.com/HectorPulido/HectorPulido/tree/master/ReadmeGenerator)
 
+>>>>>>> fa95c0a620d471cabd4bd4fc7cdb88ba49fb8f12
