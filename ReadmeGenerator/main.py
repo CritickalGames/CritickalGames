@@ -4,10 +4,11 @@ import os
 
 #FILEPATH = "../" ya no hace falta; "open" lee apartir de ../ReadmeGenerator
 README= "../README.md"#Quita el "../" cuando hagas el commit
-ACTUALPATH = "ReadmeGenerator/../" #Sin esto, no funciona el "open".
-#Pero para el commit agrega el ../ o quita la variable.
-FILENAME_BASE = f"{ACTUALPATH}config_base.json"
-FILENAME_PROJECTS = f"{ACTUALPATH}config_projects.json"
+ACTUALPATH = "ReadmeGenerator/" #Sin esto, no funciona el "open".
+#Pero para el commit quita la variable.
+REALPATH ="" #Yo cambiaré la variable a REALPATH por peresa
+FILENAME_BASE = f"{REALPATH}config_base.json"
+FILENAME_PROJECTS = f"{REALPATH}config_projects.json"
 
 f = open(FILENAME_BASE, "r", errors="ignore", encoding="utf-8")
 data = json.loads(f.read())
