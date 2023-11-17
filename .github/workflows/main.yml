@@ -1,14 +1,13 @@
 name: CI
+
 on:
   push:
-    branches: 
-      - 'push-action/**'
+    branches: [ master, main ]
   schedule:    
     - cron: "5 0 * * 0"
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
-
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -18,6 +17,7 @@ jobs:
         with:
           python-version: '3.11.x' # Version range or exact version of a Python version to use, using SemVer's version range syntax
           architecture: 'x64' # optional x64 or x86. Defaults to x64 if not specified
+      # Runs a set of commands using the runners shell
       - name: Generate static files
         run: |
           cd ReadmeGenerator
@@ -31,6 +31,7 @@ jobs:
           git config --local user.name "GitHub Action"
           git commit -m 'deploy' 
           git config --global --add safe.directory /github/workspace
+      # Upload static files to master
       - name: Force push to master
         uses: ad-m/github-push-action@master
         with:
@@ -38,6 +39,7 @@ jobs:
           branch: master
           force: true
           directory: ./
+      # Upload static files to master
       - name: Force push to main
         uses: ad-m/github-push-action@master
         with:
