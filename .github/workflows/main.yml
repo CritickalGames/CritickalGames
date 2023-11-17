@@ -2,7 +2,7 @@ name: CI
 
 on:
   push:
-    branches: [ master, main ]
+    branches: [main]
   schedule:    
     - cron: "5 0 * * 0"
 
