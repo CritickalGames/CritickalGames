@@ -1,14 +1,14 @@
-# Categor�as de mis projectos
+# Categorías de mis projectos👋
 
 
-Cuando esto sea leido, el config_project estar� listo
+Cuando esto sea leido, el config_project estará listo
 
 
 <p align="center">
-<a href="https://github.com/CritickalGames/CritickalGames/blob/master/gamedev.md"></a>
-<a href="https://github.com/CritickalGames/CritickalGames/blob/master/webdev.md"></a>
-<a href="https://github.com/CritickalGames/CritickalGames/blob/master/frontend-web.md"></a>
-<a href="https://github.com/CritickalGames/CritickalGames/blob/master/backend-web.md"></a>
+<a href="https://github.com/CritickalGames/CritickalGames/blob/master/gamedev.md">🎮</a>
+<a href="https://github.com/CritickalGames/CritickalGames/blob/master/webdev.md">💻</a>
+<a href="https://github.com/CritickalGames/CritickalGames/blob/master/frontend-web.md">👨‍💻</a>
+<a href="https://github.com/CritickalGames/CritickalGames/blob/master/backend-web.md">🌐</a>
 </p>
 
 
@@ -17,8 +17,8 @@ Cuando esto sea leido, el config_project estar� listo
 </a>
 
 
-## Juego Projects 
-- [Juegos en godot   ](https://github.com/CritickalGames/Juegos-en-Godot) 
+## Juego Projects 🎮
+- [Juegos en godot 🌿 ⭐ 🎮](https://github.com/CritickalGames/Juegos-en-Godot) 
 
 
 
@@ -27,7 +27,7 @@ Cuando esto sea leido, el config_project estar� listo
 <br>
 
 <div align="center">
-<h3 align="center">Let's connect </h3>
+<h3 align="center">Let's connect 😋</h3>
 </div>
 <p align="center">
 <a href="https://www.linkedin.com/in/hector-pulido-17547369/" target="blank">
