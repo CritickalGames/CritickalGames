@@ -3,7 +3,9 @@ from helpers import types, set_config
 import os
 
 #FILEPATH = "../" ya no hace falta; "open" lee apartir de ../ReadmeGenerator
-ACTUALPATH = "ReadmeGenerator/" #Sin esto, no funciona el "open"
+README= "../README.md"#Quita el "../" cuando hagas el commit
+ACTUALPATH = "ReadmeGenerator/" #Sin esto, no funciona el "open".
+#Pero quita el pat para el commit
 FILENAME_BASE = f"{ACTUALPATH}config_base.json"
 FILENAME_PROJECTS = f"{ACTUALPATH}config_projects.json"
 
@@ -25,7 +27,7 @@ for block in data:
 
 
 
-f = open(f"README.md", "w", errors="ignore", encoding="utf-8")
+f = open(f"{README}", "w", errors="ignore", encoding="utf-8")
 f.write(readme_file)
 f.close()
 
