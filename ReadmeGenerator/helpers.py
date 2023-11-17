@@ -53,14 +53,14 @@ def awesome_projects(data, context):
     projects = context["projects"].copy()
     pinned_projects = []
 
-    if data["ignore_pinned"]:
+    if data["ignore_pinned"]:#En config_projects; true: ignroa; false: no ignora
 
         pinned_projects = context["pinned_projects"]
-        #for project in projects:
-        #    link = project["link"]
-        #    if any([pinned_project in link for pinned_project in pinned_projects]):
-        #       projects.remove(project)
-        #       continue
+        for project in projects:
+            link = project["link"]
+            if any([pinned_project in link for pinned_project in pinned_projects]):
+               projects.remove(project)
+               continue
     
     data_count = int(data["count"])
     len_projects = len(projects)
