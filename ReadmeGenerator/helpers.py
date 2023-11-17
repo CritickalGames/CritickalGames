@@ -97,7 +97,7 @@ def awesome_projects(data, context):
                 score += f"🌿{forks} ⭐{stars}"
             if stars != "":
                 score +=f"⭐{stars}"
-
+            
         contenido = f'- [{project["name"]} {score} {emojis}]({url}) \n'
         projects_data += contenido
 

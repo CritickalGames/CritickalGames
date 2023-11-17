@@ -49,5 +49,4 @@ for category in categories:
     f = open(f"{category['tag']}.md", "w", errors="ignore", encoding="utf-8")
     f.write(readme_file)
     f.close()
-    print(readme_file)
 
