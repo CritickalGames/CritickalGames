@@ -18,6 +18,7 @@ Cuando esto sea leido, el config_project estará listo
 
 
 ## Pagina Frontend Projects 👨‍💻
+- [Paginas  💻 👨‍💻 🌐](https://github.com/CritickalGames/Paginas) 
 - [Animeisalive  💻 👨‍💻 🌐](https://github.com/CritickalGames/AnimeIsAlive) 
 
 

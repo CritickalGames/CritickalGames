@@ -26,7 +26,9 @@ Si lees esto, funciona
 
 
 ## Mis proyectos 📚
+- [Juegos en godot  🎮](https://github.com/CritickalGames/Juegos-en-Godot) 
 - [Paginas  💻 👨‍💻 🌐](https://github.com/CritickalGames/Paginas) 
+- [Animeisalive  💻 👨‍💻 🌐](https://github.com/CritickalGames/AnimeIsAlive) 
 
 
 
