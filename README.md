@@ -1,14 +1,12 @@
-# Hello, Hector Pulido is Here! 👋
+# ¿Funciona?
 
 
-`Third Clarke law; Any sufficiently advanced technology is indistinguishable from magic.`<br><em> I'm just a simple **Computational math** MS student, **Mechatronic engineer**, **backend developer**, **#MachineLearning** and **#Gamedev** lover, I have delusion of **youtuber** and now **streamer**, There is no challenge big enough not to try, My code will change the **world** some day.</em>
+Si lees esto, funciona
 
 
 <p align="center">
-<a href="https://github.com/HectorPulido/HectorPulido/blob/master/ai.md">🤖</a>
-<a href="https://github.com/HectorPulido/HectorPulido/blob/master/gamedev.md">🎮</a>
-<a href="https://github.com/HectorPulido/HectorPulido/blob/master/blockchain.md">🔑</a>
-<a href="https://github.com/HectorPulido/HectorPulido/blob/master/backend.md">💻</a>
+<a href="https://github.com/CritickalGames/CritickalGames/blob/master/gamedev.md">🎮</a>
+<a href="https://github.com/CritickalGames/CritickalGames/blob/master/backend.md">💻</a>
 </p>
 
 
@@ -18,35 +16,19 @@
 
 
 ## Tech Stack ⌨
-- Applied mathematics ⭐
-- Python and Flask, Django ⭐
-- Pytorch ⭐
-- Rust and WASM ⭐
-- SQL and No relational Databases
-- Linux, AWS and Docker
-- Unity3D ⭐
-- Arduino and electronics
-- ASM for Pics
+- Godot 4
+- Python
+- Java
+- Javascript
+- SQL
 
 
-## Awesome Projects 📚
-- [Hectorpulido  🤖 💻](https://github.com/HectorPulido/HectorPulido) 
-- [Signs dataset with pytorch opencv  🤖](https://github.com/HectorPulido/signs-dataset-with-pytorch-opencv) 
-- [Image to emoji  🤖](https://github.com/HectorPulido/image-to-emoji) 
-- [Whatsapp historial analyzer  🤖](https://github.com/HectorPulido/whatsapp-historial-analyzer) 
-- [Nlu brain api  🤖 💻](https://github.com/HectorPulido/nlu-brain-api) 
-- [Awesome discord bot with rust  🤖 💻](https://github.com/HectorPulido/awesome-discord-bot-with-rust) 
-- [Awesome twitter bot  🤖 💻](https://github.com/HectorPulido/Awesome-twitter-bot) 
-- [Human language toolkit cosine similarity  🤖](https://github.com/HectorPulido/human-language-toolkit-cosine-similarity) 
-- [Vectorized multilayer neural network  🤖](https://github.com/HectorPulido/Vectorized-multilayer-neural-network) 
+## Mis proyectos 📚
 
 
 
 ## Latest videos 📺
-<p align="center"><a href="https://www.youtube.com/watch?v=O8YMuxm5lxE" target="blank"><img align="center" width="200px" src="https://i.ytimg.com/vi/O8YMuxm5lxE/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLBn-SLFQ2CqC2-qzl5daHS-Mu2AZA"/></a>&nbsp;&nbsp;
-<a href="https://www.youtube.com/watch?v=hvVg72uCMt4" target="blank"><img align="center" width="200px" src="https://i.ytimg.com/vi/hvVg72uCMt4/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLCVDKL6v32wnUCY5-idSc7RBUNHyA"/></a>&nbsp;&nbsp;
-<a href="https://www.youtube.com/watch?v=yvb-FmRFcoA" target="blank"><img align="center" width="200px" src="https://i.ytimg.com/vi/yvb-FmRFcoA/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLADY3A6T0TqnvZMQEDgWRsCW9Uyew"/></a>&nbsp;&nbsp;
-</p>
+<p align="center"></p>
 
 
 <br>
