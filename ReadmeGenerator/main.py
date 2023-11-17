@@ -3,7 +3,7 @@ from helpers import types, set_config
 import os
 
 #Recuerda dar permisos a tu github actions en "Settings>Actions>General".
-
+#
 #FILEPATH = "../" ya no hace falta; "open" lee apartir de ../ReadmeGenerator
 README= "../README.md"#Quita el "../" cuando hagas el commit
 ACTUALPATH = "ReadmeGenerator/" #Sin esto, no funciona el "open".
