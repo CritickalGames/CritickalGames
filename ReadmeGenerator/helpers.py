@@ -82,6 +82,7 @@ def awesome_projects(data, context):
 
         score = ""
         if data["showScore"]:
+#No sé si son mis proyectos, pero estas dos etiquetas siempre van al catch.
             try:
                 forks = project["members"]
             except:
