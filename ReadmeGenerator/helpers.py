@@ -54,13 +54,14 @@ def awesome_projects(data, context):
     pinned_projects = []
 
     if data["ignore_pinned"]:
-        pinned_projects = context["pinned_projects"]
-        for project in projects:
-            link = project["link"]
-            if any([pinned_project in link for pinned_project in pinned_projects]):
-                projects.remove(project)
-                continue
 
+        pinned_projects = context["pinned_projects"]
+        #for project in projects:
+        #    link = project["link"]
+        #    if any([pinned_project in link for pinned_project in pinned_projects]):
+        #       projects.remove(project)
+        #       continue
+    
     data_count = int(data["count"])
     len_projects = len(projects)
 
@@ -93,8 +94,10 @@ def awesome_projects(data, context):
 
             score = f"🌿{forks} ⭐{stars}"
 
-        projects_data += f'- [{project["name"]} {score} {emojis}]({url}) \n'
+        contenido = f'- [{project["name"]} {score} {emojis}]({url}) \n'
+        projects_data += contenido
 
+        
     return f"{title}\n{projects_data}\n"
 
 

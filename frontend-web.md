@@ -17,8 +17,9 @@ Cuando esto sea leido, el config_project estará listo
 </a>
 
 
-## Juego Projects 
-- [Juegos en godot   ](https://github.com/CritickalGames/Juegos-en-Godot) 
+## Pagina Frontend Projects 
+- [Paginas     ](https://github.com/CritickalGames/Paginas) 
+- [Animeisalive     ](https://github.com/CritickalGames/AnimeIsAlive) 
 
 
 

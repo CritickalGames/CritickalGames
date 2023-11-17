@@ -5,14 +5,24 @@
             "githubUser": "CritickalGames",
             "categories": [
                 {
-                    "name": "GameDev",
+                    "name": "Juego",
                     "emoji": "🎮",
                     "tag": "gamedev"
                 },
                 {
-                    "name": "Backend",
+                    "name": "Pagina",
                     "emoji": "💻",
-                    "tag": "backend"
+                    "tag": "webdev"
+                },
+                {
+                    "name": "Pagina Frontend",
+                    "emoji": "👨‍💻",
+                    "tag": "frontend-web"
+                },
+                {
+                    "name": "Pagina con Backend",
+                    "emoji": "🌐",
+                    "tag": "backend-web"
                 }
             ]
         }

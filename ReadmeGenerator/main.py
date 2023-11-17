@@ -24,11 +24,12 @@ for block in data:
     readme_file += "\n\n"
 
 
+
 f = open(f"README.md", "w", errors="ignore", encoding="utf-8")
 f.write(readme_file)
 f.close()
 
-print(readme_file)
+leeme = readme_file
 
 f = open(FILENAME_PROJECTS, "r", errors="ignore", encoding="utf-8")
 data = json.loads(f.read())
@@ -48,3 +49,4 @@ for category in categories:
     f = open(f"{category['tag']}.md", "w", errors="ignore")
     f.write(readme_file)
     f.close()
+
