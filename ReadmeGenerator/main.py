@@ -6,9 +6,8 @@ import os
 README= "../README.md"#Quita el "../" cuando hagas el commit
 ACTUALPATH = "ReadmeGenerator/" #Sin esto, no funciona el "open".
 #Pero para el commit quita la variable.
-REALPATH ="" #Yo cambiaré la variable a REALPATH por peresa
-FILENAME_BASE = f"{REALPATH}config_base.json"
-FILENAME_PROJECTS = f"{REALPATH}config_projects.json"
+FILENAME_BASE = f"config_base.json"
+FILENAME_PROJECTS = f"config_projects.json"
 
 f = open(FILENAME_BASE, "r", errors="ignore", encoding="utf-8")
 data = json.loads(f.read())
