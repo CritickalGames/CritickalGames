@@ -66,7 +66,7 @@
             "count": 9,
             "showEmojis": true,
             "showScore": true,
-            "ignore_pinned": true
+            "ignore_pinned": false
         }
     },
     {

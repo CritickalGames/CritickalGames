@@ -53,7 +53,7 @@ def awesome_projects(data, context):
     projects = context["projects"].copy()
     pinned_projects = []
 
-    if data["ignore_pinned"]:#En config_projects; true: ignroa; false: no ignora
+    if data["ignore_pinned"]:#En config_projects y conig_base; true: ignroa; false: no ignora
 
         pinned_projects = context["pinned_projects"]
         for project in projects:
@@ -102,7 +102,6 @@ def awesome_projects(data, context):
         contenido = f'- [{project["name"]} {score} {emojis}]({url}) \n'
         projects_data += contenido
 
-        
     return f"{title}\n{projects_data}\n"
 
 

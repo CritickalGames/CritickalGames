@@ -7,9 +7,10 @@ import os
 #FILEPATH = "../" ya no hace falta; "open" lee apartir de ../ReadmeGenerator
 README= "../README.md"#Quita el "../" cuando hagas el commit
 ACTUALPATH = "ReadmeGenerator/" #Sin esto, no funciona el "open".
+AC=""
 #Pero para el commit quita la variable.
-FILENAME_BASE = f"config_base.json"
-FILENAME_PROJECTS = f"config_projects.json"
+FILENAME_BASE = f"{AC}config_base.json"
+FILENAME_PROJECTS = f"{AC}config_projects.json"
 
 f = open(FILENAME_BASE, "r", errors="ignore", encoding="utf-8")
 data = json.loads(f.read())
@@ -27,11 +28,13 @@ for block in data:
     readme_file += types[block["type"]](block["data"], context)
     readme_file += "\n\n"
 
-f = open(f"{README}", "w", errors="ignore", encoding="utf-8")
+
+
+f = open(f"{README}", "r+", errors="ignore", encoding="utf-8")
 f.write(readme_file)
+print(f.read())
 f.close()
 
-leeme = readme_file
 
 f = open(FILENAME_PROJECTS, "r", errors="ignore", encoding="utf-8")
 data = json.loads(f.read())
