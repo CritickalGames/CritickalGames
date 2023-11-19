@@ -18,6 +18,7 @@ No uso muchas categorías, pero porque prefiero centrarme como mucho, en 6 areas
 
 
 ## Juego Projects 🎮
+- [Eliminar  🎮](https://github.com/CritickalGames/eliminar) 
 - [Juegos en godot  🎮](https://github.com/CritickalGames/Juegos-en-Godot) 
 
 
