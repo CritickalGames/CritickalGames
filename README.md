@@ -26,8 +26,8 @@
 
 
 ## Mis proyectos 📚
-- [Eliminar  🎮](https://github.com/CritickalGames/eliminar) 
 - [Juegos en godot  🎮](https://github.com/CritickalGames/Juegos-en-Godot) 
+- [Eliminar  🎮](https://github.com/CritickalGames/eliminar) 
 - [Paginas  💻 👨‍💻 🌐](https://github.com/CritickalGames/Paginas) 
 - [Animeisalive  💻 👨‍💻 🌐](https://github.com/CritickalGames/AnimeIsAlive) 
 
