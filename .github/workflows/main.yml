@@ -1,45 +1,58 @@
-name: CI
+name: Python CI
 
 on:
   push:
     branches: [main]
   schedule:
-    - cron: "5 0 * * 0"
+    - cron: "0 0 * * 0"  # Ejecutar todos los domingos a medianoche
+
+  # Permite ejecutar este flujo de trabajo manualmente desde la pestaña de Acciones
+  workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v4
+      # Checkout del repositorio
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # Configurar Python
+      - name: Set up Python
+        uses: actions/setup-python@v4
         with:
-          node-version: '20'
-      - uses: actions/setup-python@v4
-        with:
-          python-version: '3.11.x'
-          architecture: 'x64'
-      - name: Generate static files
+          python-version: '3.11'
+
+      # Instalar dependencias
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      # Ejecutar script de Python
+      - name: Run script
         run: |
           cd ReadmeGenerator
-          pip install -r requirements.txt
           python main.py
           cd ..
+
+      # Configurar Git
+      - name: Set up Git
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git config --global --add safe.directory /github/workspace
+
+      # Commit de cambios
       - name: Commit changes
         run: |
           git add -A
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git commit -m 'deploy'
-          git config --global --add safe.directory /github/workspace
-      - name: Force push to master
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: master
-          force: true
-          directory: ./
-      - name: Force push to main
-        uses: ad-m/github-push-action@master
+          git commit -m 'Deploy' || echo "No changes to commit"
+
+      # Push de cambios a la rama main
+      - name: Push changes to main
+        uses: ad-m/github-push-action@v0.6.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: main
