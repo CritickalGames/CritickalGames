@@ -4,8 +4,7 @@ import os
 
 #Recuerda dar permisos a tu github actions en "Settings>Actions>General".
 
-#FILEPATH = "../" #! ya no hace falta; "open" lee apartir de ../ReadmeGenerator
-README= "../README.md" #! Quita el "../" cuando hagas el commit
+README= "README.md"
 ACTUALPATH = "ReadmeGenerator/" #! Sin esto, no funciona el "open".
 AC=f"{ACTUALPATH}json/"
 #Pero para el commit quita la variable.
