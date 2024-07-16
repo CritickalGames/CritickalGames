@@ -7,8 +7,10 @@
 <p align="center">
 <a href="https://github.com/CritickalGames/CritickalGames/blob/master/gamedev.md">🎮</a>
 <a href="https://github.com/CritickalGames/CritickalGames/blob/master/webdev.md">💻</a>
-<a href="https://github.com/CritickalGames/CritickalGames/blob/master/frontend-web.md">👨‍💻</a>
+<a href="https://github.com/CritickalGames/CritickalGames/blob/master/frontend-software.md">👨‍💻</a>
 <a href="https://github.com/CritickalGames/CritickalGames/blob/master/backend-web.md">🌐</a>
+<a href="https://github.com/CritickalGames/CritickalGames/blob/master/backend-software.md">🔑</a>
+<a href="https://github.com/CritickalGames/CritickalGames/blob/master/seguridad-informatica.md">🔒</a>
 </p>
 
 
@@ -27,8 +29,8 @@
 
 ## Mis proyectos 📚
 - [Juegos en godot  🎮](https://github.com/CritickalGames/Juegos-en-Godot) 
-- [Paginas  💻 👨‍💻 🌐](https://github.com/CritickalGames/Paginas) 
-- [Animeisalive  💻 👨‍💻 🌐](https://github.com/CritickalGames/AnimeIsAlive) 
+- [Paginas  💻 🌐](https://github.com/CritickalGames/Paginas) 
+- [Animeisalive  💻 🌐](https://github.com/CritickalGames/AnimeIsAlive) 
 
 
 
