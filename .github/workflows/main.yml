@@ -1,12 +1,12 @@
 name: My JavaScript Action
-description: A custom JavaScript action for my repository
+description: Una acción personalizada en JavaScript para mi repositorio
 
 inputs:
   my-input:
-    description: 'An example input'
+    description: 'Un ejemplo de entrada'
     required: true
-    default: 'default value'
+    default: 'valor predeterminado'
 
 runs:
   using: 'node12'
-  main: 'path/to/entrypoint.js'
+  main: 'ruta/al/entrypoint.js'
