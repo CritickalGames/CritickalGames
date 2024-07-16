@@ -83,7 +83,7 @@ def get_youtube_data(youtube_username):
             if tab["tabRenderer"]["title"] != "Videos":
                 continue
 
-            videos = tab["tabRenderer"]["content"]["sectionListRenderer"]
+            videos = tab["tabRenderer"]["content"]#["sectionListRenderer"]
             videos = videos["contents"][0]["itemSectionRenderer"]
             videos = videos["contents"][0]["gridRenderer"]["items"]
 
