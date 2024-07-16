@@ -1,12 +1,60 @@
-name: My JavaScript Action
-description: Una acción personalizada en JavaScript para mi repositorio
+name: Python CI
 
-inputs:
-  my-input:
-    description: 'Un ejemplo de entrada'
-    required: true
-    default: 'valor predeterminado'
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "0 0 * * 0"  # Ejecutar todos los domingos a medianoche
 
-runs:
-  using: 'node12'
-  main: 'ruta/al/entrypoint.js'
+  # Permite ejecutar este flujo de trabajo manualmente desde la pestaña de Acciones
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checkout del repositorio
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # Configurar Python
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      # Instalar dependencias
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      # Ejecutar script de Python
+      - name: Run script
+        run: |
+          cd ReadmeGenerator
+          python main.py
+          cd ..
+          using: node20
+
+      # Configurar Git
+      - name: Set up Git
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git config --global --add safe.directory /github/workspace
+
+      # Commit de cambios
+      - name: Commit changes
+        run: |
+          git add -A
+          git commit -m 'Deploy' || echo "No changes to commit"
+
+      # Push de cambios a la rama main
+      - name: Push changes to main
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main
+          force: true
