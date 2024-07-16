@@ -7,7 +7,7 @@ import os
 README= "README.md"
 ACTUALPATH = ".ReadmeGenerator/" #! Sin esto, no funciona el "open".
 DIRECCION_MD = f"{ACTUALPATH}md/" #! Para direccionar los MD
-AC=f"{ACTUALPATH}json/"
+AC="json/"
 #Pero para el commit quita la variable.
 FILENAME_BASE = f"{AC}config_base.json"
 FILENAME_PROJECTS = f"{AC}config_projects.json"
