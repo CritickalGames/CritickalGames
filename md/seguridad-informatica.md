@@ -1,7 +1,7 @@
 # Categorías de mis projectos👋
 
 
-No uso muchas categorías, pero porque prefiero centrarme como mucho, en 6 areas: juegos, web[frontend, sin css, y backend], aplicaciones de escritorio, aplicaciones moviles, no mucho más.<br><br>Hay otras cosas como programacióna a bajo nivel, pero eso son por diversión
+Prefiero centrarme en desarrollo web y vídeojuegos, pero también me gusta experimentar con un poco de todo
 
 
 <p align="center">
