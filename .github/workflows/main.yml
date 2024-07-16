@@ -14,12 +14,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # Reference the major version of a release
-      - uses: actions/checkout@v4
-      # Reference a specific version
-      - uses: actions/checkout@v4.2.0
-      # Reference a branch
-      - uses: actions/checkout@main
       # Checkout del repositorio
       - name: Checkout repository
         uses: actions/checkout@v3
