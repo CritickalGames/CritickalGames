@@ -1,7 +1,7 @@
 # Hola, bienvenido a mi portafolio.<br>Hello, welcome to my portfolio
 
 
-`Third Clarke law; Any sufficiently advanced technology is indistinguishable from magic.`<br>El archivo de automatización, está en proceso de desarrollo.
+`Third Clarke law; Any sufficiently advanced technology is indistinguishable from magic.`<br>Bienvenido a mi github, yo soy Braiam Rodriguez, aunque me puedes llamar Zeta. Éste Readme se actualiza automaticamente y sirve como un pequeño portafolios.
 
 
 <p align="center">
