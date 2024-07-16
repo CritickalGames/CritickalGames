@@ -13,7 +13,7 @@
 
 
 <a href="https://www.youtube.com/@CritickalGames">
-<img align="right" height="auto" width="200" src="https://github.com/CritickalGames/CritickalGames/blob/main/img/pequesoft.png"/>
+<img align="right" height="auto" width="200" src="https://github.com/CritickalGames/CritickalGames/blob/main/img/Zgtale.png"/>
 </a>
 
 
@@ -59,6 +59,8 @@
 
 
 ###### [* Éste readme autogenerado está basado en el de HectorPulido](https://github.com/HectorPulido/HectorPulido/tree/master/ReadmeGenerator)
+
+)
 
 ="Estadisticas de Critickal Games"/>
 </a>
