@@ -15,14 +15,24 @@
                     "tag": "webdev"
                 },
                 {
-                    "name": "Pagina Frontend",
+                    "name": "Software Frontend",
                     "emoji": "👨‍💻",
-                    "tag": "frontend-web"
+                    "tag": "frontend-software"
                 },
                 {
                     "name": "Pagina con Backend",
                     "emoji": "🌐",
                     "tag": "backend-web"
+                },
+                {
+                    "name": "Software con Backend",
+                    "emoji": "🔑",
+                    "tag": "backend-software"
+                },
+                {
+                    "name": "Seguridad",
+                    "emoji": "🔒",
+                    "tag": "seguridad-informatica"
                 }
             ]
         }
