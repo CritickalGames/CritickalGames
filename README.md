@@ -32,10 +32,6 @@
 
 
 
-## Ultimos vídeos 📺
-<p align="center"></p>
-
-
 <br>
 
 <p align="center">
@@ -59,4 +55,6 @@
 
 
 ###### [* Éste readme autogenerado está basado en el de HectorPulido](https://github.com/HectorPulido/HectorPulido/tree/master/ReadmeGenerator)
+
+ulido/HectorPulido/tree/master/ReadmeGenerator)
 
