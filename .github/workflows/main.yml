@@ -36,7 +36,6 @@ jobs:
           cd ReadmeGenerator
           python main.py
           cd ..
-          using: node20
 
       # Configurar Git
       - name: Set up Git
