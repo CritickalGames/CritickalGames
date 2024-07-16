@@ -1,4 +1,4 @@
-from scraper import get_projects, get_youtube_data, get_pinned
+from scraper import get_projects, get_pinned
 
 
 def process_title(title, context):
