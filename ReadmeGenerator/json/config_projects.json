@@ -14,8 +14,8 @@
     {
         "type": "rightImage",
         "data": {
-            "image": "https://github.com/HectorPulido/HectorPulido/raw/master/img/pequesoft.png",
-            "link": "https://twitter.com/Hector_Pulido_"
+            "image": "https://github.com/CritickalGames/CritickalGames/blob/main/img/pequesoft.png",
+            "link": "https://www.youtube.com/@CritickalGames"
         }
     },
     {
@@ -39,26 +39,21 @@
     {
         "type": "social",
         "data": {
-            "title": "@<div align=\"center\">\n<h3 align=\"center\">Let's connect 😋</h3>\n</div>",
+            "title": "@<div align=\"center\">\n<h3 align=\"center\">Contactame</h3>\n</div>",
             "social": [
                 {
-                    "alt": "Hector's LinkedIn",
-                    "url": "https://www.linkedin.com/in/hector-pulido-17547369/",
+                    "alt": "LinkedIn De Critickal Games",
+                    "url": "https://www.linkedin.com/in/braiam-sebastian-rodriguez-marcez-b385542aa/",
                     "image": "https://www.vectorlogo.zone/logos/linkedin/linkedin-icon.svg"
                 },
                 {
-                    "alt": "Hector's Twitter",
-                    "url": "https://twitter.com/Hector_Pulido_",
+                    "alt": "Twitter De Critickal Games",
+                    "url": "https://x.com/CritickalGames_",
                     "image": "https://www.vectorlogo.zone/logos/twitter/twitter-official.svg"
                 },
                 {
-                    "alt": "Hector's Twitch",
-                    "url": "https://www.twitch.tv/hector_pulido_",
-                    "image": "https://www.vectorlogo.zone/logos/twitch/twitch-icon.svg"
-                },
-                {
-                    "alt": "Hector's Youtube",
-                    "url": "https://www.youtube.com/channel/UCS_iMeH0P0nsIDPvBaJckOw",
+                    "alt": "Youtube De Critickal Games",
+                    "url": "https://www.youtube.com/@CritickalGames",
                     "image": "https://www.vectorlogo.zone/logos/youtube/youtube-icon.svg"
                 }
             ]
@@ -66,6 +61,6 @@
     },
     {
         "type": "extra",
-        "data": "###### [* This is an autogenerate readme](https://github.com/HectorPulido/HectorPulido/tree/master/ReadmeGenerator)"
+        "data": "###### [* Éste readme autogenerado está basado en el de HectorPulido](https://github.com/HectorPulido/HectorPulido/tree/master/ReadmeGenerator)"
     }
 ]

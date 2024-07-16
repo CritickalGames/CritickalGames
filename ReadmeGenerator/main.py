@@ -51,7 +51,7 @@ for category in categories:
         readme_file += types[block["type"]](block["data"], temp_context)
         readme_file += "\n\n"
     
-    f = open(f"{category['tag']}.md", "w", errors="ignore", encoding="utf-8")
+    f = open(f"md/{category['tag']}.md", "w", errors="ignore", encoding="utf-8")
     f.write(readme_file)
     f.close()
 

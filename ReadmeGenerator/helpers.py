@@ -59,8 +59,8 @@ def awesome_projects(data, context):
         for project in projects:
             link = project["link"]
             if any([pinned_project in link for pinned_project in pinned_projects]):
-               projects.remove(project)
-               continue
+                projects.remove(project)
+                continue
     
     data_count = int(data["count"])
     len_projects = len(projects)
