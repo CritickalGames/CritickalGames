@@ -5,7 +5,8 @@ import os
 #Recuerda dar permisos a tu github actions en "Settings>Actions>General".
 
 README= "README.md"
-ACTUALPATH = "ReadmeGenerator/" #! Sin esto, no funciona el "open".
+ACTUALPATH = ".ReadmeGenerator/" #! Sin esto, no funciona el "open".
+DIRECCION_MD = f"{ACTUALPATH}md/" #! Para direccionar los MD
 AC=f"{ACTUALPATH}json/"
 #Pero para el commit quita la variable.
 FILENAME_BASE = f"{AC}config_base.json"
