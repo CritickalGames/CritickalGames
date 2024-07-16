@@ -1,0 +1,31 @@
+name: auto_readme
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: checkout(trae el repo a la maquina virtual)
+        uses: actions/checkout@v4
+      - name: configurar python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r ./ReadmeGenerator/requirements.txt
+      - name: Run Script
+        run: python ./ReadmeGenerator/main.py
+      - name: Commit y Push Cambios
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with: 
+          commit_message: Actualizar de portafolio
+          commit_user_name: ZG [github actions]ç
+          commit_user_email: zgtale1@hotmail.com
+          commit_author: Zgtale
