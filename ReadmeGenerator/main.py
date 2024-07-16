@@ -6,11 +6,11 @@ import os
 
 README= "README.md"
 ACTUALPATH = ".ReadmeGenerator/" #! Sin esto, no funciona el "open".
-DIRECCION_MD = f"{ACTUALPATH}md/" #! Para direccionar los MD
-AC="json/"
+DIRECCION_MD = "md/" #! Para direccionar los MD
+DIRECCION_JSON="json/"
 #Pero para el commit quita la variable.
-FILENAME_BASE = f"{AC}config_base.json"
-FILENAME_PROJECTS = f"{AC}config_projects.json"
+FILENAME_BASE = f"{DIRECCION_JSON}config_base.json"
+FILENAME_PROJECTS = f"{DIRECCION_JSON}config_projects.json"
 
 f = open(FILENAME_BASE, "r", errors="ignore", encoding="utf-8")
 data = json.loads(f.read())
