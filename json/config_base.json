@@ -70,16 +70,6 @@
         }
     },
     {
-        "type": "youtube_video_list",
-        "data": {
-            "title": "Ultimos vídeos 📺",
-            "user_id": "@CritickalTVNarrador",
-            "count": 1,
-            "show_thumbnails": true,
-            "show_titles": true
-        }
-    },
-    {
         "type": "space",
         "data": {}
     },
